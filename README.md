@@ -71,13 +71,13 @@ During development, several complex architectural challenges were resolved to en
 ## ⚙️ Installation & Setup
 
 Step 1: Clone the Repository
-```bash
+```
 git clone [https://github.com/Maddy-002/Dr.FinTech.git](https://github.com/Maddy-002/Dr.FinTech.git)
 cd Dr.FinTech
 ```
 
 **Step 2: Install Dependencies**
-```bash
+```
 pip install streamlit pandas altair pypdf groq
 ```
 Step 3: Set Environment Variables (Crucial for AI)
@@ -85,7 +85,6 @@ You must set the Groq API key in your terminal before running the app.
 
 On Windows Command Prompt:
 
-DOS
 ```
 set GROQ_API_KEY=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
 ```
@@ -99,6 +98,7 @@ streamlit run app.py
 `(If you encounter a File does not exist: app.py error on Windows, ensure the file is saved as a Python file and not a hidden text document like app.py.txt).`
 
 📜 Standards & Compliance Matrix
+
 BIS IS 17428 (Data Privacy): 
 * No permanent storage of uploaded financial documents or charts; 
 * strictly localized session-state parsing.

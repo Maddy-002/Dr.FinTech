@@ -111,6 +111,6 @@ streamlit run app.py
 
 `ISO 31000` (Risk Management): 
 * Explainable
-* deterministic rule-based algorithms for loan eligibility (DTI thresholds).**
+* deterministic rule-based algorithms for loan eligibility (DTI thresholds).
 
 **Developed & Architected by API Architects**

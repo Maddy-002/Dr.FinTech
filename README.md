@@ -55,6 +55,7 @@ During development, several complex architectural challenges were resolved to en
 ---
 
 ## 🛠️ Technical Stack
+
 * **Frontend/UI:** Streamlit with heavily customized CSS (Fluid Aurora Live Background, Glassmorphism, CSS Animations).
 * **Data Processing & Visualization:** Pandas, Altair, Python `math`.
 * **Artificial Intelligence:** Groq API (`llama-3.1-8b-instant`, `llama-3.2-90b-vision-preview`).
@@ -69,3 +70,31 @@ During development, several complex architectural challenges were resolved to en
 ```bash
 git clone [https://github.com/Maddy-002/Dr.FinTech.git](https://github.com/Maddy-002/Dr.FinTech.git)
 cd Dr.FinTech
+
+**Step 2: Install Dependencies**
+```bash
+pip install streamlit pandas altair pypdf groq
+
+Step 3: Set Environment Variables (Crucial for AI)
+You must set the Groq API key in your terminal before running the app.
+
+On Windows Command Prompt:
+
+DOS
+set GROQ_API_KEY=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
+
+Step 4: Launch the Terminal
+
+Bash
+streamlit run app.py
+
+(If you encounter a File does not exist: app.py error on Windows, ensure the file is saved as a Python file and not a hidden text document like app.py.txt).
+
+📜 Standards & Compliance Matrix
+BIS IS 17428 (Data Privacy): No permanent storage of uploaded financial documents or charts; strictly localized session-state parsing.
+
+ISO 27001 (Security Management): Multi-layered RBAC, isolated bank ledgers, cryptographic game-score validation, and secure PIN-based transaction authorizations.
+
+ISO 31000 (Risk Management): Explainable, deterministic rule-based algorithms for loan eligibility (DTI thresholds).
+
+Developed & Architected by API Architects

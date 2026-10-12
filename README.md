@@ -92,7 +92,6 @@ set GROQ_API_KEY=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
 
 Step 4: Launch the Terminal
 
-Bash
 ```
 streamlit run app.py
 ```

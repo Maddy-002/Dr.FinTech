@@ -17,13 +17,13 @@ To fully evaluate all features, Role-Based Access Control (RBAC), and AI integra
 **2. Administrator Access (Full System & Institutional Ledger Control)**
 * **Operator ID:** `maddy`
 * **Secure Passkey:** `admin123`
-* **Virtual Bank PIN:** `9999`
+* **Virtual Bank PIN:** `1234` **Can be altered by admin**
 * **Features Unlocked:** Institutional Bank P&L Margin visibility, User Management & Revocation, Base Currency Global Overrides.
 
 **3. Standard Trader Access (Standard User View)**
 * **Operator ID:** `guest`
 * **Secure Passkey:** `guest123`
-* **Virtual Bank PIN:** `1234`
+* **Virtual Bank PIN:** `1234` **Can be altered by the admin**
 * **Features Unlocked:** Standard borrower view, restricted from institutional ledgers.
 
 ---

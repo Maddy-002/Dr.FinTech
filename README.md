@@ -26,12 +26,15 @@ To fully evaluate all features, Role-Based Access Control (RBAC), and AI integra
 * **Virtual Bank PIN:** `1234` **Can be altered by the admin**
 * **Features Unlocked:** Standard borrower view, restricted from institutional ledgers.
 
+**4. Corporate Sprint (Gamified Yields)**
+* **Verification Code is :** `450-205-1885`
+
 ---
 
 ## ✨ The 11 Core Terminal Modules
 
-1. **🛡️ AI Financial Guardian:** Interactive expense editor with a deterministic 15-to-30 day cash runway predictor.
-2. **🕯️ Chart Vision AI:** Multimodal AI (Llama-3.2 Vision) that analyzes uploaded candlestick charts to detect support/resistance and generate precise BUY/SELL/HOLD signals.
+1. **🛡️ AI Financial Guardian:** Interactive expense editor with a deterministic `15-to-30` day cash runway predictor.
+2. **🕯️ Chart Vision AI:** `Multimodal AI (Llama-3.2 Vision)` that analyzes uploaded candlestick charts to detect support/resistance and generate precise BUY/SELL/HOLD signals.
 3. **🏦 Smart Loan Engine:** Calculates risk-adjusted EMIs based on CIBIL and DTI thresholds. Includes an isolated **Institutional Profit Ledger** restricted to Admins.
 4. **📊 Live Markets:** Real-time algorithmic OHLC candlestick generator (2024 Series) with order execution logic.
 5. **📈 Sim Trading:** Interactive algorithmic scanner and historical portfolio strategy backtester.
@@ -40,7 +43,7 @@ To fully evaluate all features, Role-Based Access Control (RBAC), and AI integra
 8. **🎮 Corporate Sprint (Gamified Yields):** An embedded HTML5 reflex survival game. Yields are generated via cryptographic validation codes to bypass iframe security.
    **The Verification code is 450-205-1885**
 10. **🚨 Threat Intel & PDF Auditor:** Localized `pypdf` parser combined with an LLM inference engine to instantly audit uploaded financial contracts for hidden predatory clauses.
-11. **🗺️ Interactive Architecture:** Hover-enabled Mermaid.js diagrams revealing underlying mathematical formulas and live session states.
+11. **🗺️ Interactive Architecture:** Hover-enabled `Mermaid.js` diagrams revealing underlying mathematical formulas and live session states.
 12. **👥 Sys Admin:** Strict role-based gateway for managing operator clearances and global environment variables.
 
 ---
@@ -61,7 +64,7 @@ During development, several complex architectural challenges were resolved to en
 * **Data Processing & Visualization:** Pandas, Altair, Python `math`.
 * **Artificial Intelligence:** Groq API (`llama-3.1-8b-instant`, `llama-3.2-90b-vision-preview`).
 * **Document Parsing:** `pypdf`.
-* **Embedded Graphics:** HTML5 Canvas (JavaScript), Mermaid.js.
+* **Embedded Graphics:** `HTML5 Canvas (JavaScript), Mermaid.js`.
 
 ---
 
@@ -94,13 +97,21 @@ Bash
 streamlit run app.py
 ```
 
-(If you encounter a File does not exist: app.py error on Windows, ensure the file is saved as a Python file and not a hidden text document like app.py.txt).
+`(If you encounter a File does not exist: app.py error on Windows, ensure the file is saved as a Python file and not a hidden text document like app.py.txt).`
 
-****📜 Standards & Compliance Matrix**
-BIS IS 17428 (Data Privacy): No permanent storage of uploaded financial documents or charts; strictly localized session-state parsing.
-**
-**ISO 27001 (Security Management): Multi-layered RBAC, isolated bank ledgers, cryptographic game-score validation, and secure PIN-based transaction authorizations.
+📜 Standards & Compliance Matrix
+BIS IS 17428 (Data Privacy): 
+* No permanent storage of uploaded financial documents or charts; 
+* strictly localized session-state parsing.
 
-ISO 31000 (Risk Management): Explainable, deterministic rule-based algorithms for loan eligibility (DTI thresholds).**
+ISO 27001 (Security Management): 
+* Multi-layered RBAC
+* isolated bank ledgers
+* cryptographic game-score validation
+* and secure PIN-based transaction authorizations.
+
+ISO 31000 (Risk Management): 
+* Explainable
+* deterministic rule-based algorithms for loan eligibility (DTI thresholds).**
 
 **Developed & Architected by API Architects**

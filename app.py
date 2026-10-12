@@ -777,13 +777,14 @@ with t_bank:
         t_type = st.radio("Type", ["Deposit", "Payment / Withdrawal"], label_visibility="collapsed", horizontal=True)
         amt_tx = st.number_input(f"Amount ({curr})", min_value=1.0, value=100.0)
         desc_tx = st.text_input("Description", "General Payment")
+        pin_tx = st.text_input("Enter 4-Digit PIN", type="password", key="bank_pin_input")
         
         if st.button("Authorize Transaction", type="primary", use_container_width=True):
-            if st.text_input("Enter 4-Digit PIN", type="password") == user_bank["pin"]:
+            if pin_tx == user_bank["pin"]:
                 if t_type == "Deposit":
                     user_bank["balance"] += amt_tx
                     user_bank["history"].insert(0, {"time": datetime.now().strftime("%Y-%m-%d %H:%M"), "desc": desc_tx, "amt": amt_tx})
-                    st.success("Deposit processed.")
+                    st.success("Deposit processed successfully.")
                 else:
                     if user_bank["balance"] >= amt_tx:
                         user_bank["balance"] -= amt_tx
@@ -794,6 +795,8 @@ with t_bank:
                         st.success(f"Payment approved. Received {curr}{cb_val:,.2f} Cashback.")
                     else: st.error("Declined: Insufficient Funds.")
                 st.rerun()
+            else:
+                st.error("Invalid PIN.")
         st.markdown("</div>", unsafe_allow_html=True)
 
     with c_vb2:

@@ -89,7 +89,7 @@ On Windows Command Prompt:
 set GROQ_API_KEY=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
 ```
 
-Step 4: Launch the Terminal
+Step 4: Launch the `Terminal / CMD` based on `OS` like `Linux / Windows`
 
 ```
 streamlit run app.py
@@ -99,17 +99,17 @@ streamlit run app.py
 
 📜 Standards & Compliance Matrix
 
-BIS IS 17428 (Data Privacy): 
+`BIS IS 17428` (Data Privacy): 
 * No permanent storage of uploaded financial documents or charts; 
 * strictly localized session-state parsing.
 
-ISO 27001 (Security Management): 
+`ISO 27001` (Security Management): 
 * Multi-layered RBAC
 * isolated bank ledgers
 * cryptographic game-score validation
 * and secure PIN-based transaction authorizations.
 
-ISO 31000 (Risk Management): 
+`ISO 31000` (Risk Management): 
 * Explainable
 * deterministic rule-based algorithms for loan eligibility (DTI thresholds).**
 

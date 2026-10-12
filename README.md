@@ -1,6 +1,8 @@
 # 💠 Dr.FinTech | AI Financial Guardian & Cyber-Terminal
 
-Modern users are restricted by fragmented, passive financial tools, leaving them highly vulnerable to unexpected cashflow crises, opaque lending structures, complex Indian tax liabilities, and sophisticated digital fraud. **Dr.FinTech** is a unified, AI-driven terminal that seamlessly integrates predictive expense management, secure virtual banking, automated taxation, and institutional-grade trading intelligence.
+**Problem Statement:** Modern users are restricted by fragmented, passive financial tools, leaving them highly vulnerable to unexpected cashflow crises, opaque lending structures, complex Indian tax liabilities, and sophisticated digital fraud. 
+
+**The Solution:** **Dr.FinTech** is a unified, AI-driven terminal that solves this by seamlessly integrating predictive expense management, secure virtual banking, automated taxation, and institutional-grade trading intelligence into a single, immersive "Cyber-Terminal".
 
 ---
 
@@ -35,19 +37,29 @@ To fully evaluate all features, Role-Based Access Control (RBAC), and AI integra
 5. **📈 Sim Trading:** Interactive algorithmic scanner and historical portfolio strategy backtester.
 6. **💳 Virtual Bank:** Tier-based simulated debit/credit ecosystem (Elite, Premium, Express) with strict PIN authentication and automated cashback routing.
 7. **🇮🇳 India Tax Engine:** Statutory routing for Individual (New Regime u/s 115BAC), Corporate (25%), and GST (18%) liabilities.
-8. **🎮 Corporate Sprint (Gamified Yields):** An embedded HTML5 reflex survival game. Yields are generated via cryptographic validation codes to prevent DOM-tampering.
+8. **🎮 Corporate Sprint (Gamified Yields):** An embedded HTML5 reflex survival game. Yields are generated via cryptographic validation codes to bypass iframe security.
 9. **🚨 Threat Intel & PDF Auditor:** Localized `pypdf` parser combined with an LLM inference engine to instantly audit uploaded financial contracts for hidden predatory clauses.
 10. **🗺️ Interactive Architecture:** Hover-enabled Mermaid.js diagrams revealing underlying mathematical formulas and live session states.
 11. **👥 Sys Admin:** Strict role-based gateway for managing operator clearances and global environment variables.
 
 ---
 
+## 🚀 Engineering Challenges & Bug Fixes
+
+During development, several complex architectural challenges were resolved to ensure production readiness:
+
+* **Cryptographic CORS Bypass (Game Sync):** Modern browsers block iframe scripts from modifying the parent window's URL or DOM directly (CORS cross-origin policies). To sync the HTML5 canvas game score to the Python backend without triggering a `StreamlitWidgetAlreadyInstantiatedError` or silent failure, a robust **Cryptographic Validation Code System** was implemented. Users copy a securely hashed code generated upon crashing, validating the score mathematically.
+* **Template Literal Collision Fixed:** Resolved a critical `NameError` caused by Python `f-strings` colliding with JavaScript template literals (`${score}`). This was fixed by utilizing double-brace escaping (`${{score}}`), allowing the JS script to render securely inside the Streamlit component.
+* **Persistent AI Memory & State:** Engineered a robust `st.session_state` hierarchy to ensure uploaded chart images, bank balances, custom stock scanner edits, and historical simulated trades remain persistent across page reruns.
+
+---
+
 ## 🛠️ Technical Stack
-* **Frontend/UI:** Streamlit with heavily customized CSS (Fluid Aurora Live Background, Glassmorphism, CSS Animations, Custom DOM elements).
+* **Frontend/UI:** Streamlit with heavily customized CSS (Fluid Aurora Live Background, Glassmorphism, CSS Animations).
 * **Data Processing & Visualization:** Pandas, Altair, Python `math`.
 * **Artificial Intelligence:** Groq API (`llama-3.1-8b-instant`, `llama-3.2-90b-vision-preview`).
 * **Document Parsing:** `pypdf`.
-* **Embedded Graphics:** HTML5 Canvas (JavaScript DOM Bridge), Mermaid.js.
+* **Embedded Graphics:** HTML5 Canvas (JavaScript), Mermaid.js.
 
 ---
 

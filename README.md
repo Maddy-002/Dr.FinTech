@@ -38,9 +38,10 @@ To fully evaluate all features, Role-Based Access Control (RBAC), and AI integra
 6. **💳 Virtual Bank:** Tier-based simulated debit/credit ecosystem (Elite, Premium, Express) with strict PIN authentication and automated cashback routing.
 7. **🇮🇳 India Tax Engine:** Statutory routing for Individual (New Regime u/s 115BAC), Corporate (25%), and GST (18%) liabilities.
 8. **🎮 Corporate Sprint (Gamified Yields):** An embedded HTML5 reflex survival game. Yields are generated via cryptographic validation codes to bypass iframe security.
-9. **🚨 Threat Intel & PDF Auditor:** Localized `pypdf` parser combined with an LLM inference engine to instantly audit uploaded financial contracts for hidden predatory clauses.
-10. **🗺️ Interactive Architecture:** Hover-enabled Mermaid.js diagrams revealing underlying mathematical formulas and live session states.
-11. **👥 Sys Admin:** Strict role-based gateway for managing operator clearances and global environment variables.
+   **The Verification code is 450-205-1885**
+10. **🚨 Threat Intel & PDF Auditor:** Localized `pypdf` parser combined with an LLM inference engine to instantly audit uploaded financial contracts for hidden predatory clauses.
+11. **🗺️ Interactive Architecture:** Hover-enabled Mermaid.js diagrams revealing underlying mathematical formulas and live session states.
+12. **👥 Sys Admin:** Strict role-based gateway for managing operator clearances and global environment variables.
 
 ---
 

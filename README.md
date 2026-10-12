@@ -29,7 +29,9 @@ To fully evaluate all features, Role-Based Access Control (RBAC), and AI integra
 **4. Corporate Sprint (Gamified Yields)**
 * **Verification Code is :** `450-205-1885`
 
-**🔒 Admin Card Deactivation & Activation Code Protocol:** Administrators (`maddy`) maintain absolute security governance via the **Sys Admin** portal, with the ability to toggle any user's virtual bank card status between `ACTIVE` and `INACTIVE`. If a card is deactivated, the user's Virtual Bank interface is locked down entirely, requiring them to provide a secure, admin-issued **Reactivation Code** (e.g., `UNLOCK-123`) to restore live transaction endpoints.
+**🔒 Admin Card Deactivation & Activation Code Protocol:** 
+* Administrators `maddy` maintain absolute security governance via the `Sys Admin` portal, with the ability to toggle any user's virtual bank card status between `ACTIVE` and `INACTIVE`. If a card is deactivated, the user's Virtual Bank interface is locked down entirely, requiring them to provide a secure, admin-issued **Reactivation Code**
+* (e.g., `UNLOCK-123`) to restore live transaction endpoints.
 ---
 
 ## ✨ The 11 Core Terminal Modules
